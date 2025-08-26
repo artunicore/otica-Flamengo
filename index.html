@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Ótica Flamengo - Sua ótica oficial do Clube de Regatas Flamengo. Exames, óculos de grau, óculos de sol, manutenção e muito mais!">
+    <meta name="keywords"
+        content="Ótica, Flamengo, óculos, exame de vista, manutenção, clube de regatas, produtos ópticos">
+    <meta name="author" content="Ótica Flamengo">
+    <title>Ótica Flamengo - Sua visão rubro-negra</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=UnifrakturMaguntia&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#" style="font-family: 'UnifrakturMaguntia', cursive; font-size:2rem; color:#E01A1A;">
+                    <i class="fa-solid fa-glasses"></i> Ótica Flamengo
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Veja o mundo com a paixão rubro-negra!</h1>
+            <p>Sua visão merece o melhor. Venha para a Ótica Flamengo e enxergue com qualidade e estilo.</p>
+            <div class="cta-buttons">
+                <a href="#produtos" class="btn btn-primary">Ver Produtos</a>
+                <a href="#contato" class="btn btn-secondary">Agendar Exame</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="logo-flamengo.png" alt="Logo Ótica Flamengo" />
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-cards">
+            <article class="servico-card">
+                <i class="fa-solid fa-eye"></i>
+                <h3>Exame de Vista</h3>
+                <p>Realize seu exame de vista com profissionais qualificados.</p>
+            </article>
+            <article class="servico-card">
+                <i class="fa-solid fa-glasses"></i>
+                <h3>Óculos de Grau</h3>
+                <p>Modelos modernos e confortáveis para todas as idades.</p>
+            </article>
+            <article class="servico-card">
+                <i class="fa-solid fa-sunglasses"></i>
+                <h3>Óculos de Sol</h3>
+                <p>Proteção e estilo com as melhores marcas do mercado.</p>
+            </article>
+            <article class="servico-card">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Manutenção</h3>
+                <p>Conserto e ajustes rápidos para seus óculos.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section id="produtos" class="produtos">
+        <h2>Produtos</h2>
+        <div class="produtos-filtros">
+            <button class="filter-btn" data-filter="todos">Todos</button>
+            <button class="filter-btn" data-filter="grau">Óculos de Grau</button>
+            <button class="filter-btn" data-filter="sol">Óculos de Sol</button>
+            <button class="filter-btn" data-filter="acessorios">Acessórios</button>
+        </div>
+        <div class="produtos-lista">
+            <!-- Exemplos de produtos -->
+            <article class="produto-card grau">
+                <img src="oculos-grau1.jpg" alt="Óculos de Grau 1">
+                <h3>Óculos de Grau Flamengo</h3>
+                <p>Design exclusivo rubro-negro.</p>
+            </article>
+            <article class="produto-card sol">
+                <img src="oculos-sol1.jpg" alt="Óculos de Sol 1">
+                <h3>Óculos de Sol Flamengo</h3>
+                <p>Proteção UV e estilo.</p>
+            </article>
+            <article class="produto-card acessorios">
+                <img src="case-flamengo.jpg" alt="Case Flamengo">
+                <h3>Case Personalizado</h3>
+                <p>Proteja seus óculos com estilo.</p>
+            </article>
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre a Ótica Flamengo</h2>
+        <div class="sobre-content">
+            <p>Somos a ótica oficial do Clube de Regatas Flamengo, oferecendo qualidade, tradição e atendimento
+                personalizado para toda a Nação Rubro-Negra.</p>
+            <div class="estatisticas">
+                <div class="estatistica">
+                    <span class="numero">+10.000</span>
+                    <span class="descricao">Clientes atendidos</span>
+                </div>
+                <div class="estatistica">
+                    <span class="numero">98%</span>
+                    <span class="descricao">Satisfação dos clientes</span>
+                </div>
+                <div class="estatistica">
+                    <span class="numero">20</span>
+                    <span class="descricao">Anos de experiência</span>
+                </div>
+                <div class="estatistica">
+                    <span class="numero">100%</span>
+                    <span class="descricao">Rubro-Negro</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="depoimentos">
+        <h2>Depoimentos de Clientes</h2>
+        <div class="depoimentos-lista">
+            <blockquote class="depoimento">
+                <p>"Atendimento excelente e produtos de qualidade! Recomendo para toda a Nação."</p>
+                <footer>- João, sócio torcedor</footer>
+            </blockquote>
+            <blockquote class="depoimento">
+                <p>"Meus óculos ficaram perfeitos, e o exame foi super rápido."</p>
+                <footer>- Maria, cliente fiel</footer>
+            </blockquote>
+            <blockquote class="depoimento">
+                <p>"Ótica Flamengo é sinônimo de confiança e tradição."</p>
+                <footer>- Carlos, apaixonado pelo Mengão</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <h2>Fale Conosco</h2>
+        <div class="contato-content">
+            <form class="contato-form">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <div class="contato-info">
+                <p><i class="fa-solid fa-location-dot"></i> Av. Flamengo, 123 - Rio de Janeiro, RJ</p>
+                <p><i class="fa-solid fa-phone"></i> (21) 99999-9999</p>
+                <p><i class="fa-solid fa-envelope"></i> contato@oticaflamengo.com.br</p>
+                <div class="redes-sociais">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span style="font-family: 'UnifrakturMaguntia', cursive; font-size:1.5rem; color:#E01A1A;">
+                    <i class="fa-solid fa-glasses"></i> Ótica Flamengo
+                </span>
+            </div>
+            <nav class="footer-nav">
+                <a href="#servicos">Serviços</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#depoimentos">Depoimentos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <div class="footer-social">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Ótica Flamengo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JS para navegação responsiva e filtros -->
+    <script src="script.js"></script>
+</body>
+
+</html>
