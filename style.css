@@ -1,5 +1,6 @@
 /* ======= VARIÁVEIS ======= */
 :root {
+  --amarelo: #ffcc00;
   --vermelho: #e50000;
   --preto: #000;
   --gradiente: linear-gradient(90deg, #e50000 0%, #000 100%);
@@ -53,15 +54,41 @@ header {
   margin: 0 auto;
   padding: 1rem 1.5rem;
 }
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
 .logo a {
   font-family: "UnifrakturMaguntia", cursive;
   font-size: 2rem;
-  color: var(--vermelho);
+  color: var(--preto);
   text-shadow: 0 2px 8px rgba(229, 0, 0, 0.15);
-  letter-spacing: 2px;
+
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.logo p {
+  margin: 0;
+  font-weight: 700;
+}
+.logo i {
+  color: var(--preto);
+}
+
+.logo span {
+  color: var(--amarelo);
+  font-size: 50px;
+}
+
+.logo a:hover {
+  color: var(--vermelho);
+  text-shadow: 0 4px 16px rgba(229, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
 }
 .nav-links {
   display: flex;
@@ -166,7 +193,7 @@ header {
   border-color: var(--preto);
 }
 .hero-image img {
-  max-width: 220px;
+  max-width: 520px;
   width: 100%;
   margin: 2rem auto 0 auto;
   display: block;
